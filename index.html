@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Landing Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='script.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src='main.js'></script>
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+            <label class="logo"><span>D</span>EEP <span>B</span>REATHZZ</label>
+            <ul id="menubar">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#skills">SERVICES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul> 
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+        </nav>
+    </div>
+        <div class="home">
+            <h1>Welcome</h1>
+            <p>to the world of <span>Relaxation</span></p>
+            <img id="so" src="buddha.jpg">
+            <h2>...The more deeper breathes,<br>the higher the thoughts...</h2>
+        </a>
+        </div> 
+    <section id="about">
+        <div class="container">
+                <div class="about1">
+                    <h1 class="self">About Us</h1>
+                    <p id="desc">Welcome to the Stress Relief Center! Our mission is to help individuals manage and reduce stress through a variety of techniques, 
+                        programs, and therapies. Our team of experts is dedicated to improving your overall well-being and quality of life.</P>
+                </div>
+        </div> 
+</section>
+  <div id="section">
+    <div class="container">
+            <h2 id="sername">Services</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <div class="ser1">
+                    <h3>Yoga and Meditation Classes</h3>
+                    <div class="img"><img src="yoga.jpg"></div>
+                    <p id="para">Experience inner peace and relaxation through our guided yoga and meditation sessions.</p>
+                </div>
+                </div>
+                <div class="service">
+                <div class="ser2">
+                    <h3>Massage Therapy</h3>
+                    <div class="img"><img src="massage.webp"></div>
+                    <p id="para">Relieve tension and stress with our professional massage therapy sessions.</p>
+                </div>
+                </div>
+                <div class="service">
+                    <div class="ser3">
+                    <h3>Doodles and outdoor Activities</h3>
+                    <div class="img"><img src="doodle.webp"></div>
+                    <p id="para">Learn effective techniques to manage and cope with stress in our interactive craftworks.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>  
+
+        <section id="contact">
+            <div class="container">
+                <h1 class="self">Contact Us</h1>
+    <div class="links">
+        <a href="tel:+918333014209"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="mailto:soumya21212@gmail.com"><i class="fa-solid fa-paper-plane"></i></a>
+        <a href="https://www.linkedin.com/in/sri-soumya-gajula-8933b8251/"><i class="fa-brands fa-linkedin"></i></a>   
+    </div>
+            </div> 
+    </section>
+<script>
+        var sidemenu=document.getElementById("menubar");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+</script>
+</body>
+</html>
